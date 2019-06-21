@@ -2,34 +2,9 @@
 
 ![grbl](https://raw.githubusercontent.com/gnea/gnea-Media/master/Grbl%20Logo/Grbl%20Logo%20250px.png)
 
-This plugin was inspired by mic159's Grbl Support plugin (https://plugins.octoprint.org/plugins/octoprint-grbl-plugin/).  His plugin gets you 90% of the way there for adding Grbl support to Octoprint but had a couple limitations and lacked some bells and whistles from a UI and configuration perspective.
+This plugin was largely developed based on Synmans Version. 
 
-**Better Grbl Support** utilizes mic159's gcode receiver parser (with significant modifications) and does much, much more:
-
-* Replaces Octoprint's Control tab with its own Grbl Control tab
-* Execute bounding box (framing) routines based on origin location and supplied dimensions
-* Computes selected file dimensions and pre-populates framing length/width fields
-* Converts Grbl error and alarm #s to meaningful descriptions 
-* Grbl Homing support
-* Modify all Grbl ($$) settings via Better Grbl Support settings
-* Backup and restore Grbl ($$) settings
-* Click on the webcam image to enlarge it to its native resolution
-* Visually updates State / X / Y / Z / Speed / Power dynamically, even while printing!
-* Weak Laser Toggle, Sleep, Reset, and Unlock buttons conveniently placed within the Grbl Control tab
-* Rewrites Octoprint's annoying hardcoded M115 (Hello) queries as M5 requests
-* Rewrites M105 (temperature updates) as Grbl status updates
-* Suppresses M110 (reset line #) requests
-* Rewrites M400 (Finish moves) using Grbl Dwell
-* Rewrites M114 (current position) using Grbl Positioning
-* Implements M999 for reseting Grbl (^X)
-* Hides the Octoprint Control, Temperature and GCode Viewer tabs
-* Optionally adds Laser Commands and State sections to the Control tab
-* Suppresses status update reporting during GCODE streaming
-* No need to ignore firmware errors or track down other Octoprint nuance settings
-* Automatically disables Model Size Detection
-* Automatically disables sending checksums
-* Automatically disables the Printer Safety Check plugin
-* Most configuration options are configurable via Plugin Settings
+This version allows streaming of any wireless IP camera(provided it is on your network) instead of the default in-built streamer. A proper settings panel will be designed in the future. 
 
 ## Setup
 
