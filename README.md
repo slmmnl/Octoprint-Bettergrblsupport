@@ -2,9 +2,9 @@
 
 ![grbl](https://raw.githubusercontent.com/gnea/gnea-Media/master/Grbl%20Logo/Grbl%20Logo%20250px.png)
 
-This plugin was largely developed based on Synmans Version. 
+This plugin was largely developed based on Synmans Version of the same name. 
 
-This version allows streaming of any wireless IP camera(provided it is on your network) instead of the default in-built streamer. A proper settings panel will be designed in the future. 
+This version allows streaming of any wireless IP camera(provided it is on your network) instead of the default in-built streamer. A new setting now appears in the settings panel that allows any IP Camera to be displayed.  
 
 ## Setup
 
