@@ -44,6 +44,8 @@ class BetterGrblSupportPlugin(octoprint.plugin.SettingsPlugin,
         self.disablePrinterSafety = True
         self.showZ = False
 
+        self.ipSource = "10.12.124.113"
+
         self.overrideM8 = False
         self.overrideM9 = False
         self.m8Command = ""
@@ -84,6 +86,7 @@ class BetterGrblSupportPlugin(octoprint.plugin.SettingsPlugin,
             suppressM110 = True,
             disablePolling = True,
             customControls = True,
+            ipSource = "10.12.124.113",
             frame_length = 100,
             frame_width = 100,
             frame_origin = None,

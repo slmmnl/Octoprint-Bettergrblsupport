@@ -200,9 +200,9 @@ $(function() {
 
       self.onTabChange = function (current, previous) {
           var streamImg = document.getElementById("webcam_image_framing");
-
+          console.log(self.settings);
           if (current == "#tab_plugin_bettergrblsupport") {
-              streamImg.src = "/webcam/?action=stream&" + Math.floor(Math.random() * 1000000);   ;
+              streamImg.src = 'http://' + self.settings.settings.plugins.bettergrblsupport.ipSource() + '/webcam/?action=stream' + Math.floor(Math.random() * 1000000);   ;
           } else if (previous == "#tab_plugin_bettergrblsupport") {
               streamImg.src = "about:blank";
           }
