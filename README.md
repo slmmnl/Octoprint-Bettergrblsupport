@@ -33,6 +33,6 @@ Pay special attention to the following config.yaml configuration parameters:
 
 ## Screenshots
 
-![Main UI](https://github.com/slmmnl/Octoprint-Bettergrblsupport/blob/master/screenshots/Screenshot%202019-06-21%20at%206.58.33%20PM.png)
+![Main UI](https://github.com/slmmnl/Octoprint-Bettergrblsupport/blob/master/screenshots/Screenshot%202019-06-21%20at%206.58.46%20PM.png)
 
 ![Configuration UI](https://github.com/slmmnl/Octoprint-Bettergrblsupport/blob/master/screenshots/Screenshot%202019-06-21%20at%206.58.33%20PM.png)
